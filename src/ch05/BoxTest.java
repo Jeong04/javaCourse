@@ -8,6 +8,11 @@ class Box {
 
 public class BoxTest {
     public static void main(String[] args) {
+        /*
+         * instance 생성 방법
+         * 1. 클래스명 참조변수명
+         * 2. 참조변수명 = new 클래스명(); // 간략화 → 클래스명 참조변수명 = new 클래스명()
+         */
         Box b;
         b = new Box();
         b.width = 20;
