@@ -1,17 +1,5 @@
 package ch07;
 
-class Car {
-    private int speed;
-
-    public int getSpeed() {
-        return speed;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-}
-
 class SportsCar extends Car {
     private boolean turbo;
 
