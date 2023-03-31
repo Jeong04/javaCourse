@@ -1,4 +1,4 @@
-package ch07;
+package ch07.teachersExample;
 
 public class Base {
     public Base(String msg) {

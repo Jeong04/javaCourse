@@ -3,6 +3,9 @@ package ch07;
 class Rectangle extends Shape {
     private int width;
     private int height;
+    public void draw() {
+        System.out.println("Rectangle Draw [" + getWidth() + ", " + getHeight() + "]");
+    }
     public int getWidth() {
         return width;
     }
@@ -15,17 +18,14 @@ class Rectangle extends Shape {
     public void setHeight(int height) {
         this.height = height;
     }
-    public int area() {
-        return width * height;
-    }
-    public void draw() {
-        System.out.println("(" + getX() + ", " + getY() + ") 위치에 가로 : " + width + ", 세로 : " + height);
-    }
 }
 
 class Shape {
     private int x;
     private int y;
+    public void draw() {
+        System.out.println("Shape Draw [" + x + ", " + y + "]");
+    }
     public int getX() {
         return x;
     }
@@ -37,9 +37,6 @@ class Shape {
     }
     public void setY(int y) {
         this.y = y;
-    }
-    public void print() {
-        System.out.println("X좌표 : " + x + ", Y좌표 : " + y);
     }
 }
 
@@ -58,10 +55,8 @@ public class RectangleTest {
         r2.setWidth(15);
         r2.setHeight(20);
 
-        r1.print();
         r1.draw();
         System.out.println("---------------------------------");
-        r2.print();
         r2.draw();
     }
 }

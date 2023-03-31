@@ -1,4 +1,6 @@
-package ch07;
+package ch07.teachersExample;
+
+import ch07.teachersExample.Base;
 
 public class Derived extends Base {
     public Derived() {
