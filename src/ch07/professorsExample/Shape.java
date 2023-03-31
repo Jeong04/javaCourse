@@ -1,4 +1,4 @@
-package ch07.teachersExample;
+package ch07.professorsExample;
 
 public abstract class Shape {
     private int x;

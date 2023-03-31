@@ -1,6 +1,4 @@
-package ch07.teachersExample;
-
-import ch07.teachersExample.Derived;
+package ch07.professorsExample;
 
 public class Test {
     public static void main(String[] args) {

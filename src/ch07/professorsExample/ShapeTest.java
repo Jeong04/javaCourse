@@ -1,4 +1,4 @@
-package ch07.teachersExample;
+package ch07.professorsExample;
 
 public class ShapeTest {
     public static void main(String[] args) {
