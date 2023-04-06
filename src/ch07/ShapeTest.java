@@ -25,6 +25,7 @@ public class ShapeTest {
         shapes[1] = s4;
         shapes[2] = s4;
         shapes[3] = s4;
+        shapes[4] = new Polygon();
 
         drawShapes(shapes);
     }
