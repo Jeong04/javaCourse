@@ -1,4 +1,4 @@
-package ch07.professorsExample;
+package ch07.polymorphism;
 
 public class Test {
     public static void main(String[] args) {

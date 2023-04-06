@@ -1,4 +1,4 @@
-package ch07.professorsExample;
+package ch07.polymorphism;
 
 public class Rectangle extends Shape { // 추상 메소드를 사용하지 않으면 오류 발생
     @Override

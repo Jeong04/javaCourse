@@ -1,4 +1,4 @@
-package ch07.professorsExample;
+package ch07.polymorphism;
 
 public class Derived extends Base {
     public Derived() {
