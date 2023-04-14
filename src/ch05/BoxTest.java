@@ -1,9 +1,9 @@
 package ch05;
 
 class Box {
-    int width;
-    int length;
-    int height;
+    int width; // 상자의 가로
+    int length; // 상자의 세로
+    int height; // 상자의 높이
 }
 
 public class BoxTest {
