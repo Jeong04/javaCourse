@@ -32,9 +32,6 @@ public class Lab {
             } else if (!str.getStr().substring(0, 3).equals("www")) {
                 System.out.println(str.getStr() + " 은 'www'로 시작하지 않습니다.");
             }
-
-
-
         }
 
     }
