@@ -1,4 +1,6 @@
-package ch09;
+package ch09.remoteControl;
+
+import ch09.remoteControl.RemoteControl;
 
 public class LgTV implements RemoteControl {
     @Override

@@ -1,4 +1,4 @@
-package ch09;
+package ch09.remoteControl;
 
 // 인터페이스의 모든 메소드는 public abstract 이다.
 public interface RemoteControl {

@@ -1,4 +1,6 @@
-package ch09;
+package ch09.remoteControl;
+
+import ch09.remoteControl.AdvancedRemoteControl;
 
 public class SamsungTv implements AdvancedRemoteControl {
 
